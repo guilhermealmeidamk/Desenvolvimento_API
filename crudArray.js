@@ -136,13 +136,4 @@ function resetDB() {
 }
 
 // Exporta para plugar nas rotas depois 
-module.exports = {
-  db,
-  createItem,
-  readItems,
-  readItemById,
-  updateItem,
-  deleteItem,
-  softDeleteItem,
-  resetDB
-};
+export { db, createItem, readItems, readItemById, updateItem, deleteItem, softDeleteItem, resetDB };
