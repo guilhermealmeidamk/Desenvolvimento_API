@@ -1,6 +1,14 @@
 const {
-  db, createItem, readItems, readItemById, updateItem, deleteItem, softDeleteItem, resetDB
-} = require("./crudArray");
+import {
+  createItem,
+  readItems,
+  readItemById,
+  updateItem,
+  deleteItem,
+  softDeleteItem,
+  resetDB,
+  _db
+} from "./crudArray.js";
 
 // começa limpo
 resetDB();
