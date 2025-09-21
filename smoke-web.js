@@ -6,7 +6,7 @@ import {
   deleteItem,
   softDeleteItem,
   resetDB,
-  _db
+  db
 } from "./crudArray.js";
 
 // começa limpo
