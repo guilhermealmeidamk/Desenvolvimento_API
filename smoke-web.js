@@ -1,12 +1,12 @@
 import {
+  db,
   createItem,
   readItems,
   readItemById,
   updateItem,
   deleteItem,
   softDeleteItem,
-  resetDB,
-  db
+  resetDB
 } from "./crudArray.js";
 
 // começa limpo
